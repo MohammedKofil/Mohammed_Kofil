@@ -33,10 +33,14 @@ h1:hover{
 }
 p{
     text-align: justify;
+    color: dimgray;
 }
 
 .name-highlight{
     color: #3F82C2;
+}
+.header-highlight{
+    color: tomato;
 }
 .half-width{
     width: 40%;
@@ -55,10 +59,11 @@ p{
 .dearm-area{
     background-image: url("/images/dream-bg.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right, bottom;
 }
 section{
     height: 500px;
+    padding-bottom: 120px;
 }
 .link-button{
     font-weight: bold;
@@ -76,11 +81,61 @@ section{
 }
 .link-button:hover{
     font-size: x-large;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-feature-settings: "blwf";
     -webkit-font-feature-settings: "blwf";
     -moz-font-feature-settings: "blwf";
     font-stretch: extra-condensed;
     color: aliceblue;
     font-style: italic;
+}
+.single-experiance{
+    box-shadow: 10px 10px 40px;
+    color: gray;
+    height: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: aliceblue;
+}
+.experiance-area{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+
+}
+#beginner-area{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
