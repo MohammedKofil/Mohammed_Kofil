@@ -118,6 +118,15 @@ section{
     border-image-slice: 1;
 }
 
+footer{
+    border: 2px solid beige ;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    box-shadow: gray;
+}
 footer p{
     text-align: center;
     font-size: 12px;
