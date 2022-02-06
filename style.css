@@ -1,15 +1,32 @@
 body{
     font-family: 'Supermercado One', cursive;
+    margin: 0%;
 }
 
 h1{
     font-size: 50px;
 }
+h2{
+    color: #7D9DC8;
+    font-size: xx-large;
+}
+h2:hover{
+    font-style: italic;
+}
+h4{
+    color: #F9745D;
+}
 .high{
     font-style: oblique;
     font-weight: lighter;
     font-size: larger;
-    color: rgb(9, 146, 139) !important;
+    color: #4CBF85;
+}
+#sp{
+    color: #753AD8;
+}
+#sp2{
+    color: green;
 }
 h1:hover{
     font-style: italic;
@@ -19,7 +36,7 @@ p{
 }
 
 .name-highlight{
-    color: orange;
+    color: #3F82C2;
 }
 .half-width{
     width: 40%;
@@ -29,4 +46,50 @@ p{
 }
 .half-width img{
     width: 100%;
+}
+.half-width-1{
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width-1 img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("/images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.middle-banner{
+    background-image: url("/images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 10%;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, lightsalmon, rgb(129, 255, 71));
+    text-decoration: none;
+    color: rgba(92, 40, 233, 0.76);
+    border: 1px dotted rgb(0, 0, 0);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.link-button:hover{
+    font-size: x-large;
+    font-family: cursive;
+    font-feature-settings: "blwf";
+    -webkit-font-feature-settings: "blwf";
+    -moz-font-feature-settings: "blwf";
+    font-stretch: extra-condensed;
+    color: aliceblue;
+    font-style: italic;
 }
