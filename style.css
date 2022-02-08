@@ -51,6 +51,16 @@ p{
 .half-width img{
     width: 100%;
 }
+#img{
+    height: 350px;
+    color: grey;
+    box-shadow: 10px 10px 40px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
 
 .top-banner{
     background-image: url("top-banner.png");
