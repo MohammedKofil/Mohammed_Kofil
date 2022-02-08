@@ -63,11 +63,11 @@ p{
 }
 
 .top-banner{
-    background-image: url("top-banner.png");
+    background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
 .dearm-area{
-    background-image: url("dream-bg.png");
+    background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right, bottom;
 }
@@ -91,7 +91,7 @@ section{
 }
 .link-button:hover{
     font-size: x-large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Quintessential', cursive;
     font-feature-settings: "blwf";
     -webkit-font-feature-settings: "blwf";
     -moz-font-feature-settings: "blwf";
@@ -112,7 +112,7 @@ section{
     background-color: aliceblue;
 }
 .experiance-area{
-    background-image: url("exp-bg.png");
+    background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
 }
