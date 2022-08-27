@@ -1,0 +1,145 @@
+body{
+    font-family: 'Supermercado One', cursive;
+    margin: 0%;
+    overflow: auto;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    color: #7D9DC8;
+    font-size: xx-large;
+}
+h2:hover{
+    font-style: italic;
+}
+h4{
+    color: #F9745D;
+}
+.high{
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: larger;
+    color: #4CBF85;
+}
+#sp{
+    color: #753AD8;
+}
+#sp2{
+    color: green;
+}
+h1:hover{
+    font-style: italic;
+}
+p{
+    text-align: justify;
+    color: dimgray;
+}
+
+.name-highlight{
+    color: #3F82C2;
+}
+.header-highlight{
+    color: tomato;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+#img{
+    height: 350px;
+    color: grey;
+    box-shadow: 10px 10px 40px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.dearm-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right, bottom;
+}
+section{
+    height: 500px;
+    padding-bottom: 120px;
+}
+.link-button{
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, lightsalmon, rgb(129, 255, 71));
+    text-decoration: none;
+    color: rgba(92, 40, 233, 0.76);
+    border: 1px dotted rgb(158, 206, 224);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.link-button:hover{
+    font-size: x-large;
+    font-family: 'Quintessential', cursive;
+    font-feature-settings: "blwf";
+    -webkit-font-feature-settings: "blwf";
+    -moz-font-feature-settings: "blwf";
+    font-stretch: extra-condensed;
+    color: aliceblue;
+    font-style: italic;
+}
+.single-experiance{
+    box-shadow: 10px 10px 40px;
+    color: gray;
+    height: 70%;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: aliceblue;
+}
+.experiance-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+
+}
+#beginner-area{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer{
+    border: 2px solid beige ;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    box-shadow: gray;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
